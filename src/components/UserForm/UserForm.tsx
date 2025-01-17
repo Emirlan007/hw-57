@@ -8,8 +8,8 @@ interface UserFormProps {
 }
 
 const UserForm: React.FC<UserFormProps> = ({ form, onChange, onSubmit }) => (
-    <div className="border border-secondary w-50 me-2 vh-75 d-flex flex-column justify-content-start">
-        <h1 className="my-3">Login</h1>
+    <div className="border border-secondary w-50 me-2 vh-50 d-flex flex-column justify-content-start">
+        <h1 className="my-3">Create User</h1>
         <hr/>
         <form onSubmit={onSubmit}>
             <div className="form-group mb-3">
