@@ -8,7 +8,7 @@ interface UsersProps {
 
 const Users: React.FC<UsersProps> = ({ users }) => (
     <div className="border border-secondary w-50 ms-2 vh-100 d-flex flex-column">
-        <h2 className="my-3 fs-1">Users</h2>
+        <h2 className="my-3 fs-1">Users List</h2>
         <hr/>
         <div className="overflow-auto" style={{flexGrow: 1, maxHeight: "calc(100% - 60px)"}}>
             {users.length === 0 ? (
